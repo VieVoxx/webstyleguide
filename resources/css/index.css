@@ -1,0 +1,167 @@
+/* Global Styles */
+
+* {
+    margin: 0px auto;
+    padding: 0;
+    color: #1D5B79;
+    text-align: center;
+}
+
+body {
+    width: 90%;
+    background-color: blanchedalmond;
+}
+
+header {
+    margin-top: 5em;
+    margin-bottom: 5em;
+}
+
+h1 {
+    font-family: "Lobster Two";
+    font-size: 6.4em;
+    font-weight: 400;
+    font-style: normal;
+}
+
+main {
+    margin: 1em;
+}
+
+section div:first-child > h2 {
+    margin-bottom: 30px;
+    color: #EF6262;
+}
+
+h2 {
+    font-size: 3.5em;
+    font-family: "Lobster Two";
+}
+
+h3 {
+    font-family: Doto;
+    font-size: 1em;
+}
+
+h4 {
+    font-family: Courier;
+    font-size: 1.2em;
+    padding: 40px 45px;
+    border: 2px dotted #468B97;
+    border-radius: 30px;
+    margin: 1em auto;
+    min-width: 40%;
+    max-width: 76%;
+}
+
+.colors {
+    width: 80%;
+}
+
+.colors div {
+    height: 3em;
+    width: 15em;
+    border-radius: 30px;
+    padding: 10px;
+    margin: 0px 5px 20px;
+    display: inline-block;
+    vertical-align: top;
+    justify-items: space-between;
+}
+
+.colors div:hover {
+    height: 10em;
+    transition: height .4s;
+    box-shadow: 0px 6px 0 0px #F3AA60;
+    border-bottom: 2px solid blanchedalmond;
+}
+
+.colors div:active {
+    height: 10em;
+    transition: height .4s;
+    box-shadow: 0px 6px 0 0px rgba(150, 118, 74, 0.8);
+    border-bottom: 2px solid blanchedalmond;
+}
+
+.colors div h2 {
+    font-size: 2em;
+    margin-bottom: 2em;
+}
+
+.colors div h2, div h3 {
+    opacity: 0;
+    color: blanchedalmond;
+}
+
+.colors div:hover h2 {
+    opacity: 1;
+    transition: opacity 1s;
+}
+
+.colors div:hover h3 {
+    opacity: 1;
+    transition: opacity 1s;
+}
+
+.colors div:hover div::after {
+   opacity: 0;
+}
+
+.mm {
+    background-color: #1D5B79;
+}
+
+.og {
+    background-color: #468B97;
+}
+
+.bb {
+    background-color: #EF6262;
+}
+
+.hh {
+    background-color: #F3AA60;
+}
+
+.fonts {
+    width: 80%;
+    margin: 60px auto;
+    
+}
+
+.fonts div {
+    /* border: 2px dotted #468B97; */
+    background-color: #468B97;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 30px;
+    width: 20em;
+    display: inline-block;
+    vertical-align: top;
+    height: 20em; 
+}
+
+.fonts div h2 {
+    font-size: 3em;
+    margin: .8em;
+    color: blanchedalmond;
+}
+
+.fonts p {
+    text-align: left;
+    color: blanchedalmond;
+    margin: -10px 10px 20px;
+    font-size: 1.2em; 
+}
+
+.lobster p {
+    font-family: "Lobster Two";
+}
+
+.doto h2, .doto p {
+    font-family: Doto;
+}
+
+.courier h2, p{
+    font-family: Courier;
+}
